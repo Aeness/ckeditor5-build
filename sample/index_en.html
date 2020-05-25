@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>CKEditor 5 – Aeness french build</title>
+    <title>CKEditor 5 – Aeness build</title>
     <style>
         body {
             max-width: 800px;
@@ -12,25 +12,22 @@
 </head>
 <body>
 
-<h1>CKEditor 5 – Aeness build en fançais (multi-langue)</h1>
+<h1>CKEditor 5 – Aeness english (multi-language) build </h1>
 <div id="editor">
-    <h2>Exemple avec insert-image</h2>
+    <h2>Exemple with insert-image</h2>
 
-    <p>Ci-dessous <a href="https://images.freeimages.com/images/large-previews/05e/on-the-road-6-1384796.jpg">une image</a>.</p>
+    <p>Below <a href="https://images.freeimages.com/images/large-previews/05e/on-the-road-6-1384796.jpg">an image</a>.</p>
 
     <figure class="image">
-        <img src="https://images.freeimages.com/images/large-previews/05e/on-the-road-6-1384796.jpg" alt="Image libre de droit." />
+        <img src="https://images.freeimages.com/images/large-previews/05e/on-the-road-6-1384796.jpg" alt="Image free to use." />
     </figure>
 
     https://images.freeimages.com/images/large-previews/05e/on-the-road-6-1384796.jpg
 </div>
 
 <script src="../build/ckeditor.js"></script>
-<script src="../build/translations/fr.js"></script>
 <script>
-    SimpleEditor.create( document.querySelector( '#editor' ), {
-            language: 'fr'
-        } )
+    SimpleEditor.create( document.querySelector( '#editor' ) )
         .then( editor => {
             window.editor = editor;
         } )

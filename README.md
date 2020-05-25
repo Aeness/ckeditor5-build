@@ -9,4 +9,4 @@ Run (or [download it](https://github.com/Aeness/ckeditor5-build/archive/master.z
 git clone https://github.com/Aeness/ckeditor5-build.git
 ```
 
- and open ckeditor5-build\sample\index.html in a browser.
+ and open ckeditor5-build\sample\index.html in a browser for a french exemple or ckeditor5-build\sample\index_en.html for an english exemple.
