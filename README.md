@@ -1,6 +1,6 @@
 # ckeditor5-build
 
-A editor build for CKEditor 5 v20.0.0 with [@aeness/ckeditor5-insert-image](https://github.com/Aeness/ckeditor5-insert-image).
+A editor build for CKEditor 5 v21.0.0 with [@aeness/ckeditor5-insert-image](https://github.com/Aeness/ckeditor5-insert-image).
 
 ## Test it
 
