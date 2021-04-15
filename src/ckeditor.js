@@ -14,6 +14,7 @@ import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent';
 import Link from '@ckeditor/ckeditor5-link/src/link';
+import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
@@ -39,6 +40,7 @@ SimpleEditor.builtinPlugins = [
     ImageToolbar,
     Indent,
     Link,
+    LinkImage,
     List,
     Paragraph,
     PasteFromOffice,
@@ -75,7 +77,9 @@ SimpleEditor.defaultConfig = {
         toolbar: [
             'imageStyle:alignLeft',
             'imageStyle:full',
-            'imageStyle:alignRight'
+            'imageStyle:alignRight',
+            '|',
+            'linkImage'
         ],
         styles: [
             // This option is equal to a situation where no style is applied.
