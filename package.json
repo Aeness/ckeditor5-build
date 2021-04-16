@@ -40,8 +40,12 @@
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Aeness/ckeditor5-build.git"
+    "url": "git+https://github.com/Aeness/ckeditor5-build.git"
   },
+  "keywords": [
+    "ckeditor5",
+    "ckeditor5-build"
+  ],
   "scripts": {
     "watch": "webpack --watch --mode development",
     "build-dev": "webpack --mode development",
