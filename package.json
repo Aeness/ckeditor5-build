@@ -6,7 +6,7 @@
     "build"
   ],
   "devDependencies": {
-    "@aeness/ckeditor5-insert-image": "git+https://github.com/Aeness/ckeditor5-insert-image.git#v23.1.0",
+    "@aeness/ckeditor5-insert-image": "^23.1.0",
     "@ckeditor/ckeditor5-alignment": "^23.1.0",
     "@ckeditor/ckeditor5-autoformat": "^23.1.0",
     "@ckeditor/ckeditor5-basic-styles": "^23.1.0",
