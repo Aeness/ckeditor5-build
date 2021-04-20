@@ -12,6 +12,7 @@ import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
+import AutoImage from '@ckeditor/ckeditor5-image/src/autoimage.js';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import AutoLink from '@ckeditor/ckeditor5-link/src/autolink';
@@ -39,6 +40,7 @@ SimpleEditor.builtinPlugins = [
     ImageResize,
     ImageStyle,
     ImageToolbar,
+    AutoImage,
     Indent,
     Link,
     AutoLink,
