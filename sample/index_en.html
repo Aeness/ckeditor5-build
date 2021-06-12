@@ -5,26 +5,31 @@
     <title>CKEditor 5 – Aeness build</title>
     <style>
         body {
-            max-width: 800px;
+            font-family: 'Nunito Sans',sans-serif;
+            max-width: 840px;
             margin: 20px auto;
+        }
+		.screenshot {
+			border : 1px solid rgb(15, 15, 15);
+            padding: 20px;
         }
     </style>
 </head>
 <body>
+<div class="screenshot">
+    <h1>CKEditor 5 – Aeness english (multi-language) build </h1>
+    <div id="editor">
+        <h2>Example with insert-image</h2>
 
-<h1>CKEditor 5 – Aeness english (multi-language) build </h1>
-<div id="editor">
-    <h2>Exemple with insert-image</h2>
+        <p>Below <a href="https://images.freeimages.com/images/large-previews/05e/on-the-road-6-1384796.jpg">an image</a>.</p>
 
-    <p>Below <a href="https://images.freeimages.com/images/large-previews/05e/on-the-road-6-1384796.jpg">an image</a>.</p>
+        <figure class="image">
+            <img src="https://images.freeimages.com/images/large-previews/05e/on-the-road-6-1384796.jpg" alt="Image free to use." />
+        </figure>
 
-    <figure class="image">
-        <img src="https://images.freeimages.com/images/large-previews/05e/on-the-road-6-1384796.jpg" alt="Image free to use." />
-    </figure>
-
-    https://images.freeimages.com/images/large-previews/05e/on-the-road-6-1384796.jpg
+        https://images.freeimages.com/images/large-previews/05e/on-the-road-6-1384796.jpg
+    </div>
 </div>
-
 <script src="../build/ckeditor.js"></script>
 <script>
     SimpleEditor.create( document.querySelector( '#editor' ) )
