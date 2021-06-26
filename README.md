@@ -4,9 +4,9 @@ A editor build for CKEditor 5 v28.0.0 with [@aeness/ckeditor5-insert-image](http
 
 ## Test it
 
-Run (or [download it](https://github.com/Aeness/ckeditor5-build/archive/refs/tags/v28.0.0.zip))
+Run (or [download it](https://github.com/Aeness/ckeditor5-build/archive/master.zip))
 ```
-git clone --branch v28.0.0 https://github.com/Aeness/ckeditor5-build.git
+git clone https://github.com/Aeness/ckeditor5-build.git
 ```
 
  and open ckeditor5-build\sample\index.html in a browser for a french exemple or ckeditor5-build\sample\index_en.html for an english exemple.
