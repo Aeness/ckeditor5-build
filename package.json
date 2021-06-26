@@ -10,7 +10,7 @@
     "ckeditor5": "^28.0.0"
   },
   "devDependencies": {
-    "@aeness/ckeditor5-insert-image": "git+https://github.com/Aeness/ckeditor5-insert-image.git",
+    "@aeness/ckeditor5-insert-image": "^28.0.0",
     "@ckeditor/ckeditor5-alignment": "^28.0.0",
     "@ckeditor/ckeditor5-autoformat": "^28.0.0",
     "@ckeditor/ckeditor5-basic-styles": "^28.0.0",
