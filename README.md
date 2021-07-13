@@ -2,6 +2,8 @@
 
 A editor build for CKEditor 5 v28.0.0 with [@aeness/ckeditor5-insert-image](https://github.com/Aeness/ckeditor5-insert-image).
 
+![Example](https://github.com/Aeness/ckeditor5-build/blob/master/docs/doc-example1.jpg?raw=true)
+
 ## Test it
 
 Run (or [download it](https://github.com/Aeness/ckeditor5-build/archive/master.zip))
