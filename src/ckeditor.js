@@ -80,7 +80,7 @@ SimpleEditor.defaultConfig = {
     image: {
         toolbar: [
             'imageStyle:alignLeft',
-            'imageStyle:full',
+            'imageStyle:block',
             'imageStyle:alignRight',
             '|',
             'linkImage'
