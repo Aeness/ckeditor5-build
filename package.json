@@ -1,6 +1,6 @@
 {
   "name": "@aeness/ckeditor5-build",
-  "version": "29.0.0",
+  "version": "29.0.1",
   "main": "./build/ckeditor.js",
   "files": [
     "build"
