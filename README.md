@@ -1,14 +1,14 @@
 # ckeditor5-build
 
-A editor build for CKEditor 5 v31.1.0 with [@aeness/ckeditor5-insert-image](https://github.com/Aeness/ckeditor5-insert-image).
+A editor build for CKEditor 5 v32.0.0 with [@aeness/ckeditor5-insert-image](https://github.com/Aeness/ckeditor5-insert-image).
 
-![Example](https://github.com/Aeness/ckeditor5-build/blob/v31.0.0/docs/doc-example1.jpg?raw=true)
+![Example](https://github.com/Aeness/ckeditor5-build/blob/v32.0.0/docs/doc-example1.jpg?raw=true)
 
 ## Test it
 
-Run (or [download it](https://github.com/Aeness/ckeditor5-build/archive/refs/tags/v31.0.0.zip))
+Run (or [download it](https://github.com/Aeness/ckeditor5-build/archive/refs/tags/v32.0.0.zip))
 ```
-git clone --branch v31.0.0 https://github.com/Aeness/ckeditor5-build.git
+git clone --branch v32.0.0 https://github.com/Aeness/ckeditor5-build.git
 ```
 
  and open ckeditor5-build\sample\index.html in a browser for a french exemple or ckeditor5-build\sample\index_en.html for an english exemple.
